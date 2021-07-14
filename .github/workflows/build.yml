@@ -6,12 +6,12 @@ on:
 
 jobs:
   build:
-  runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-  
+
       - name: Hello World
-      run: echo Hello, world!
+        run: echo Hello, world!
       
       - name: Send mail
         if: always()
@@ -28,6 +28,6 @@ jobs:
           # email body as text
           body: ${{ github.job }} job in worflow ${{ github.workflow }} of ${{ github.repository }} has ${{ job.status }}
           # comma-separated string, send email to
-          to: joshua.hatch@noaa.gov
+          to: johndoe@gmail.com,doejohn@gmail.com
           # from email name
-          from: NOAA Fisheries, NEFSC
+    from: John Doe
