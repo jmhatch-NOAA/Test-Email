@@ -30,4 +30,4 @@ jobs:
           # comma-separated string, send email to
           to: johndoe@gmail.com,doejohn@gmail.com
           # from email name
-    from: John Doe
+          from: John Doe
