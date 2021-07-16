@@ -31,4 +31,4 @@ jobs:
           # comma-separated string, send email to
           to: joshua.hatch@noaa.gov
           # from email name
-          from: R Shiny User Group, NEFSC, NOAA Fisheries
+          from: R Shiny Group, NEFSC, NOAA Fisheries
