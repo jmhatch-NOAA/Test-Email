@@ -27,7 +27,7 @@ jobs:
           subject: ${{ github.job }} job of ${{ github.repository }} has ${{ job.status }}
           # email body as text
           # body: ${{ github.job }} job in worflow ${{ github.workflow }} of ${{ github.repository }} has ${{ job.status }}
-          html_body: file://email/email_template.html
+          html_body: file://email/email.html
           # comma-separated string, send email to
           to: joshua.hatch@noaa.gov
           # from email name
